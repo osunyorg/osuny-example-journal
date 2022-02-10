@@ -3,10 +3,6 @@
   target: "/volumes/"
   kind: research_volumes
   children: []
-- title: Articles
-  target: "/articles/"
-  kind: research_articles
-  children: []
 - title: Équipe
   target: "/equipe/"
   kind: staff
