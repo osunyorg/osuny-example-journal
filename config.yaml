@@ -20,9 +20,11 @@ permalinks:
   administrators: /equipe/:slug/administration/
   researchers:    /equipe/:slug/publications/
   teachers:       /equipe/:slug/formations/
+  articles:       /articles/:slug/
 taxonomies:
   administrator:  administrators
   author:         authors
   category:       categories
   researcher:     researchers
   teacher:        teachers
+  volume:         volumes
