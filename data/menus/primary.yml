@@ -7,4 +7,8 @@
   target: "/equipe/"
   kind: staff
   children: []
+- title: Articles
+  target: "/articles/"
+  kind: research_articles
+  children: []
 
