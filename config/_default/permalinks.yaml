@@ -1,0 +1,5 @@
+posts:          /actualites/:year/:month/:day/:slug/
+categories:     /actualites/:slug/
+persons:        /equipe/:slug/
+researchers:    /equipe/:slug/publications/
+articles:       /articles/:slug/
