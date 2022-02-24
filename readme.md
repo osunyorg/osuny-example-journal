@@ -12,6 +12,17 @@ brew upgrade hugo
 ```
 
 
+## Template hugo osuny
+https://github.com/noesya/osuny-hugo-template
+
+Pour faire la mise à jour :
+```
+git remote add template git@github.com:noesya/osuny-hugo-template.git
+git fetch --all
+git merge template/main --allow-unrelated-histories
+```
+
+
 ## Install
 
 Pour cloner avec le thème
@@ -24,7 +35,7 @@ git pull --recurse-submodules
 ```
 
 
-## Launch
+## Commands
 
 Pour lancer le site
 ```
@@ -33,14 +44,15 @@ yarn watch
 ```
 
 
+## Netlify
 Pour déployer le site avec Netlify, penser à ajouter la deploy key.
 
 
 ## Params
 
-Dans configs/_default/params.yml
+Les params principaux sont dans config.yaml du theme, pour en ajouter ou modifier il faut overider dans config/_defaults/config.yaml
 ```
-keycdn: https://osuny-1b4da.kxcdn.com
+cdnkey: https://osuny-1b4da.kxcdn.com
 cookie_banner:
   enable: true
   blank: true
