@@ -10,4 +10,4 @@ deployment:
 
 params:
   summary:
-      position: content # content | hero
+      position: hero # content | hero
