@@ -13,7 +13,7 @@ fr:
     volumes: /volumes/:year-:slug/
     publications: /publications/:year-:slug/
     persons: /equipe/:slug/
-    persons_categories: /equipe/:slug/
+    persons_categories: /equipe/categories/:slug/
     researchers: /equipe/:slug/publications/
   taxonomies:
     administrator: administrators
