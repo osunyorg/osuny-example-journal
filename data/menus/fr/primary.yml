@@ -5,10 +5,12 @@ items:
   target: "/volumes/"
   kind: page
   children: []
+  path: "/volumes"
   file: content/fr/volumes/_index.html
 - title: Équipe
   target: "/equipe/"
   kind: page
   children: []
+  path: "/persons"
   file: content/fr/persons/_index.html
 
