@@ -4,12 +4,14 @@ items:
 - title: Volumes
   target: "/volumes/"
   kind: page
+  new_tab: false
   children: []
   path: "/volumes"
   file: content/fr/volumes/_index.html
 - title: Équipe
   target: "/equipe/"
   kind: page
+  new_tab: false
   children: []
   path: "/persons"
   file: content/fr/persons/_index.html
