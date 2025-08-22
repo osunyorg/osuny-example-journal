@@ -8,7 +8,7 @@ bodyclass: >-
 url: "/"
 slug: ""
 date: 2023-01-02T15:53:05+01:00
-lastmod: 2024-10-10T13:02:34+02:00
+lastmod: 2025-08-22T12:41:03+02:00
 meta:
   hugo:
     permalink: "/"
@@ -17,7 +17,7 @@ meta:
     slug: ""
   dates:
     created_at: 2022-04-08T12:05:38+02:00
-    updated_at: 2024-10-10T13:02:34+02:00
+    updated_at: 2025-08-22T12:41:03+02:00
     published_at: 2023-01-02T15:53:05+01:00
 search:
   id: "2cb1c0f7-4358-4c01-89a1-bf40868ea627"
@@ -30,7 +30,7 @@ search:
   summary: >-
     <p>Exemple de revue scientifique</p>
   body: >-
-    
+    <p>Bloc d'articles  <br> Bloc de volumes  </p>
 
 breadcrumbs:
   - title: >-
@@ -39,7 +39,7 @@ breadcrumbs:
 design:
   full_width: true
   toc:
-    present: false
+    present: true
     offcanvas: true
 
 
@@ -74,9 +74,103 @@ header_cta:
   external: false
 
 contents_reading_time:
-  seconds: 0
+  seconds: 2
   text: >-
     moins d'une minute
 contents:
+  - kind: block
+    template: title
+    title: >-
+      Bloc d'articles
+    slug: >-
+      bloc-d-articles
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Bloc d'articles
+        heading: 2
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: papers
+    title: >-
+      
+    slug: >-
+      
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
+    data:
+      papers:
+        - permalink: "/papiers/2022-02-10-qualite-front-aaa/"
+          path: "/papers/2022/2022-02-10-qualite-front-aaa"
+          slug: "qualite-front-aaa"
+          file: "content/fr/papers/2022/2022-02-10-qualite-front-aaa.html"
+          name: >-
+            Qualité front AAA
+        - permalink: "/papiers/2022-02-10-qualite-front-aa/"
+          path: "/papers/2022/2022-02-10-qualite-front-aa"
+          slug: "qualite-front-aa"
+          file: "content/fr/papers/2022/2022-02-10-qualite-front-aa.html"
+          name: >-
+            Qualité front AA
+        - permalink: "/papiers/2022-02-10-qualite-front-a/"
+          path: "/papers/2022/2022-02-10-qualite-front-a"
+          slug: "qualite-front-a"
+          file: "content/fr/papers/2022/2022-02-10-qualite-front-a.html"
+          name: >-
+            Qualité front A
+
+      quantity: 3
+
+  - kind: block
+    template: title
+    title: >-
+      Bloc de volumes
+    slug: >-
+      bloc-de-volumes
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Bloc de volumes
+        heading: 2
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: volumes
+    title: >-
+      
+    slug: >-
+      
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
+    data:
+      volumes:
+        - permalink: "/volumes/2022-qualite-frontend/"
+          path: "/volumes/2022-qualite-frontend"
+          slug: "2022-qualite-frontend"
+          file: "content/fr/volumes/2022-qualite-frontend/_index.html"
+          name: >-
+            Qualité frontend
+
+      quantity: 1
+
 
 ---
