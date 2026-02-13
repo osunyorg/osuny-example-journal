@@ -2,17 +2,21 @@
 title: Primary
 items:
 - title: Volumes
+  slug: volumes
   target: "/volumes/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/volumes"
   file: content/fr/volumes/_index.html
 - title: Équipe
+  slug: equipe
   target: "/equipe/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/persons"
   file: content/fr/persons/_index.html
 
