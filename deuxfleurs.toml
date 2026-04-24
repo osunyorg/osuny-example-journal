@@ -15,46 +15,46 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
-from = "/equipe/arnaud-levy/papers/"
+from = "/equipe/arnaud-levy/papers/index.html"
 to = "/equipe/arnaud-levy/publications/"
 
 [[redirects]]
-from = "/equipe/categories/implication/comites-osuny/scientifique/"
+from = "/equipe/categories/implication/comites-osuny/scientifique/index.html"
 to = "/equipe/categories/implication/comites-osuny/comite-scientifique/"
 
 [[redirects]]
-from = "/equipe/categories/metiers/developpement-back/"
+from = "/equipe/categories/metiers/developpement-back/index.html"
 to = "/equipe/categories/metiers/developpement/"
 
 [[redirects]]
-from = "/equipe/categories/commoners/"
+from = "/equipe/categories/commoners/index.html"
 to = "/equipe/categories/implication/commoners/"
 
 [[redirects]]
-from = "/equipe/categories/comites/scientifique/"
+from = "/equipe/categories/comites/scientifique/index.html"
 to = "/equipe/categories/implication/comites-osuny/comite-scientifique/"
 
 [[redirects]]
-from = "/equipe/categories/dev/back/"
+from = "/equipe/categories/dev/back/index.html"
 to = "/equipe/categories/metiers/developpement/"
 
 [[redirects]]
-from = "/equipe/categories/comites/"
+from = "/equipe/categories/comites/index.html"
 to = "/equipe/categories/implication/comites-osuny/"
 
 [[redirects]]
-from = "/equipe/categories/commoners/makers/"
+from = "/equipe/categories/commoners/makers/index.html"
 to = "/equipe/categories/implication/makers/"
 
 [[redirects]]
-from = "/equipe/categories/comites/dev-back/"
+from = "/equipe/categories/comites/dev-back/index.html"
 to = "/equipe/categories/implication/comites-osuny/dev-back/"
 
 [[redirects]]
-from = "/equipe/categories/dev/"
+from = "/equipe/categories/dev/index.html"
 to = "/equipe/categories/metiers/"
 
 [[redirects]]
-from = "/mentions-legales-1/"
+from = "/mentions-legales-1/index.html"
 to = "/mentions-legales/"
 
